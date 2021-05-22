@@ -23,7 +23,7 @@ Feature: Library Book
   Scenario: Add a new book to library api using post
     Given book details to be added is given
     When post operation is done
-    Then book should be added and status code is 200
+    Then book should be added and status code is 201
 
   @BookLibrary
   Scenario: Find an existing book using get operation
